@@ -1,24 +1,18 @@
 # my-travel
 
-## Project setup
-```
-yarn install
-```
+## 概要
+私自身の面白かった旅での経験を、Vue.js開発を通じてSPAとして作成いたしました。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 開発した背景
+私自身がした経験を、サービス開発の過程で発信できたら良いと思い開発いたしました。
+私の経験が誰かの参考になれば幸いです。
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 環境・使用技術
+### フロントエンド
+- HTML
+- SCSS
+- JavaScript(Vue.js)
 
-### Lints and fixes files
-```
-yarn lint
-```
+### バージョン管理
+- Github
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
