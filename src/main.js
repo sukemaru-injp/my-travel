@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import number from './number.vue'
+import number from './components/number.vue'
 
 Vue.config.productionTip = false
 Vue.component('LikeNum', number);
