@@ -1,13 +1,19 @@
 <template>
-<div>
+<div class="main">
   <TravelHeader></TravelHeader>
-  <Num></Num>
+  <Num v-bind:number="number"></Num>
+  <Num v-bind:number="number"></Num>
 </div>
 </template>
 
 <script>
 import TravelHeader from './components/TravelHeader.vue'
   export default {
+    data() {
+      return {
+        number: 6
+      }
+    },
     components: {
       TravelHeader
     }
@@ -15,4 +21,7 @@ import TravelHeader from './components/TravelHeader.vue'
 </script>
 
 <style>
+.main {
+  display: flex;
+}
 </style>

@@ -7,11 +7,9 @@
 
 <script>
 export default {
-  data: function() {
-      return {
-        number: 5
-      }
-    },
+  props: [
+    'number'
+  ],
   methods: {
     increment() {
       this.number++;

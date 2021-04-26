@@ -1,9 +1,9 @@
 <template>
 <div class="header">
-  <h2>My Travel Diary</h2>
+  <h2 class="title">My Travel Diary</h2>
   <ul class="countries">
-    <li>タイ</li>
-    <li>ベトナム</li>
+    <li class="country">タイ</li>
+    <li class="country">ベトナム</li>
   </ul>
 </div>
 </template>
@@ -20,5 +20,12 @@
 
   .countries {
     list-style-type: none;
+  }
+
+  .country {
+    margin-bottom: 10px;
+  }
+  .title {
+    margin-left: 5px;
   }
 </style>
