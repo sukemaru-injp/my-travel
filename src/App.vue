@@ -1,7 +1,7 @@
 <template>
 <div>
   <TravelHeader></TravelHeader>
-  <LikeNum></LikeNum>
+  <Num></Num>
 </div>
 </template>
 

@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import number from './components/number.vue'
+import LikeNumber from './components/Number.vue'
 
 Vue.config.productionTip = false
-Vue.component('LikeNum', number);
+Vue.component('Num', LikeNumber);
 
 new Vue({
   render: h => h(App),
