@@ -1,6 +1,6 @@
 <template>
 <div class="header">
-  <h1>Travel</h1>
+  <h2>My Travel Diary</h2>
   <p>タイ</p>
   <p>ベトナム</p>
 </div>
@@ -8,9 +8,11 @@
 
 <script>
 </script>
+
 <style>
   .header {
-    background-color: green;
+    background: linear-gradient(45deg, #2af598 0%, #009efd 100%);
     width: 30vw;
+    height: 100vh;
   }
 </style>
