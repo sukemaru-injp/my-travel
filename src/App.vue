@@ -4,11 +4,15 @@
   <Num v-bind:total-number="number" @my-click='incrementNum'></Num>
   <Num v-bind:total-number="number"></Num>
   <h2 class="num">{{ number }}</h2>
+  <Next class="num">
+    <h1>トータルいいね{{ number }}</h1>
+  </Next>
 </div>
 </template>
 
 <script>
 import TravelHeader from './components/TravelHeader.vue'
+
   export default {
     data() {
       return {
@@ -34,4 +38,5 @@ import TravelHeader from './components/TravelHeader.vue'
 .num {
   margin-left: 20px;
 }
+
 </style>

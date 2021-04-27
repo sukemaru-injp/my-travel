@@ -1,12 +1,12 @@
 <template>
-<div class="header">
-  <h2 class="title">My Travel Diary</h2>
-  <ul class="countries">
-    <li class="country">タイ</li>
-    <li class="country">ベトナム</li>
-    <li class="country">香港</li>
-  </ul>
-</div>
+  <div class="header">
+    <h2 class="title">My Travel Diary</h2>
+    <ul class="countries">
+      <li class="country">タイ</li>
+      <li class="country">ベトナム</li>
+      <li class="country">香港</li>
+    </ul>
+  </div>
 </template>
 
 <script>
