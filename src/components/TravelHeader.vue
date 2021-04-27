@@ -4,6 +4,7 @@
   <ul class="countries">
     <li class="country">タイ</li>
     <li class="country">ベトナム</li>
+    <li class="country">香港</li>
   </ul>
 </div>
 </template>
@@ -16,6 +17,7 @@
     background: linear-gradient(45deg, #2af598 0%, #009efd 100%);
     width: 30vw;
     height: 100vh;
+    color: white;
   }
 
   .countries {
@@ -23,7 +25,8 @@
   }
 
   .country {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
   }
   .title {
     margin-left: 5px;
