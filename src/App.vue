@@ -9,6 +9,11 @@
       <hr>
       <h2>hello</h2>
     </template>
+    
+    <template v-slot:num>
+      <hr>
+      <h2>{{number}}</h2>
+    </template>
   </Next>
 </div>
 </template>
