@@ -4,8 +4,7 @@
   <Num v-bind:total-number="number" @my-click='incrementNum'></Num>
   <Num v-bind:total-number="number"></Num>
   <h2 class="num">{{ number }}</h2>
-  <Next class="num">
-    <h1>トータルいいね{{ number }}</h1>
+  <Next class="num" header-text='hello'>
   </Next>
 </div>
 </template>
