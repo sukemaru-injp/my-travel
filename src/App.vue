@@ -6,8 +6,10 @@
     <h3>hello</h3>
   </Next>
   <button class='btn' @click="currentComponent = 'Home'">Home</button>
-    <button class='btn' @click="currentComponent = 'Thai'">Thai</button>
-  <component :is="currentComponent"></component>
+  <button class='btn' @click="currentComponent = 'Thai'">Thai</button>
+  <keep-alive>
+    <component :is="currentComponent"></component>
+  </keep-alive>
 </div>
 </template>
 
