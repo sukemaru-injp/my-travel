@@ -5,11 +5,12 @@
   <Num v-bind:total-number="number"></Num>
   <h2 class="num">{{ number }}</h2>
   <Next class="num">
-    <template v-slot:hello>
+    <template v-slot:hello='slotProps'>
       <hr>
       <h2>hello</h2>
+      <h2>{{ slotProps.user.last }}</h2>
     </template>
-    
+    <p>yahoo</p>
     <template v-slot:num>
       <hr>
       <h2>{{number}}</h2>
