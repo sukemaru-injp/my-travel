@@ -1,0 +1,17 @@
+<template>
+  <section class="section1">
+    <p>これは私の趣味である旅行遍歴による各地域のおすすめポイントをまとめたものです。</p>
+  </section>
+</template>
+
+<script>
+
+export default {
+  created() {
+    console.log('create');
+  },
+  destroyed() {
+    console.log('destroy')
+  }
+}
+</script>
