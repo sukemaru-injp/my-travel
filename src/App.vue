@@ -46,6 +46,7 @@ import Thai from'./components/Thai.vue'
 
 <style>
 @import "./assets/styles/bootstrap-reboot.css";
+@import "./assets/styles/header.css";
 
 .main {
   display: flex;
@@ -59,33 +60,6 @@ import Thai from'./components/Thai.vue'
   height: 100px;
   margin-left: 30px;
 }
-
-/* ヘッダー */
-.header {
-    background: linear-gradient(45deg, #2af598 0%, #009efd 100%);
-    width: 30vw;
-    height: 100vh;
-    color: white;
-  }
-
-  .countries {
-    list-style-type: none;
-  }
-
-  .country {
-    margin-bottom: 15px;
-    padding: 5px;
-    cursor: pointer;
-    transition: all 0.3s;
-  }
-
-  .country:hover {
-    background-color: royalblue;
-    width: 70%;
-  }
-  .title {
-    margin: 20px;
-  }
 
 
 </style>
