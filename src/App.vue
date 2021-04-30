@@ -47,6 +47,8 @@ import Thai from'./components/Thai.vue'
 </script>
 
 <style>
+@import "./assets/styles/bootstrap-reboot.css";
+
 .main {
   display: flex;
 }
