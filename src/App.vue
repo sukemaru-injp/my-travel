@@ -1,6 +1,14 @@
 <template>
 <div class="main">
-  <TravelHeader></TravelHeader>
+  <div class="header">
+    <h2 class="title">My Travel Diary</h2>
+    <ul class="countries">
+      <li class="country" @click="currentComponent = 'Home'">Home</li>
+      <li class="country" @click="currentComponent = 'Thai'">タイ</li>
+      <li class="country">ベトナム</li>
+      <li class="country">香港</li>
+    </ul>
+  </div>
   <Num v-bind:total-number="number" @my-click='incrementNum'></Num>
   <Next class="num">
     <h3>hello</h3>
@@ -51,5 +59,26 @@ import Thai from'./components/Thai.vue'
   height: 100px;
   margin-left: 30px;
 }
+
+/* ヘッダー */
+.header {
+    background: linear-gradient(45deg, #2af598 0%, #009efd 100%);
+    width: 30vw;
+    height: 100vh;
+    color: white;
+  }
+
+  .countries {
+    list-style-type: none;
+  }
+
+  .country {
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .title {
+    margin-left: 5px;
+  }
+
 
 </style>
