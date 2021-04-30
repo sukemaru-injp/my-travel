@@ -9,10 +9,7 @@
       <li class="country">香港</li>
     </ul>
   </div>
-  <Num v-bind:total-number="number" @my-click='incrementNum'></Num>
-  <Next class="num">
-    <h3>hello</h3>
-  </Next>
+  <!-- <Num v-bind:total-number="number" @my-click='incrementNum'></Num> -->
   <keep-alive>
     <component :is="currentComponent"></component>
   </keep-alive>
