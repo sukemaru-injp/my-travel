@@ -12,6 +12,12 @@
       <p>
         {{eventData.title}}
       </p>
+      <label for="detail">質問内容</label>
+      <textarea name="" id="detail" cols="30" rows="10" v-model="eventData.detail">
+      </textarea>
+      <pre>{{eventData.detail}}</pre>
+      <label for="isPrivate">非公開</label>
+      <input type="checkbox" id="isPrivate" v-model="eventData.isPrivate">
     </section>
   </div>
 </template>
@@ -21,7 +27,9 @@ export default {
   data() {
     return {
       eventData: {
-        title: ''
+        title: '',
+        detail: '',
+        isPrivate: false
       }
     }
   },
