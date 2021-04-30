@@ -13,8 +13,6 @@
   <Next class="num">
     <h3>hello</h3>
   </Next>
-  <button class='btn' @click="currentComponent = 'Home'">Home</button>
-  <button class='btn' @click="currentComponent = 'Thai'">Thai</button>
   <keep-alive>
     <component :is="currentComponent"></component>
   </keep-alive>
@@ -30,7 +28,7 @@ import Thai from'./components/Thai.vue'
     data() {
       return {
         number: 14,
-        currentComponent: ''
+        currentComponent: 'Home'
       }
     },
     components: {
@@ -76,10 +74,17 @@ import Thai from'./components/Thai.vue'
 
   .country {
     margin-bottom: 15px;
+    padding: 5px;
     cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .country:hover {
+    background-color: royalblue;
+    width: 70%;
   }
   .title {
-    margin-left: 5px;
+    margin: 20px;
   }
 
 

@@ -1,11 +1,12 @@
 <template>
-  <section class="section1">
-    <p>これは私の趣味である旅行遍歴による各地域のおすすめポイントをまとめたものです。</p>
-  </section>
+  <div id="content">
+    <section class="section1">
+      <p>これは私の趣味である旅行遍歴による各地域のおすすめポイントをまとめたものです。</p>
+    </section>
+  </div>
 </template>
 
 <script>
-
 export default {
   created() {
     console.log('create');
