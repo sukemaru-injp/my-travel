@@ -2,8 +2,10 @@
 .header {
   background: linear-gradient(45deg, #2af598 0%, #009efd 100%);
   width: 30vw;
-  height: 100vh;
+  height: auto;
+  min-height: 100%;
   color: white;
+  overflow: scroll;
 }
 
 .countries {

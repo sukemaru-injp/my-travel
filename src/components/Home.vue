@@ -44,3 +44,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.sec1 {
+ height: 100vh;
+}
+</style>
