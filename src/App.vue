@@ -7,6 +7,7 @@
       <li class="country" @click="currentComponent = 'Thai'">タイ</li>
       <li class="country">ベトナム</li>
       <li class="country">香港</li>
+      <li class="country">ポルトガル</li>
     </ul>
   </div>
   <!-- <Num v-bind:total-number="number" @my-click='incrementNum'></Num> -->
