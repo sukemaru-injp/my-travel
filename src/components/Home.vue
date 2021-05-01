@@ -18,6 +18,11 @@
       <pre>{{eventData.detail}}</pre>
       <label for="isPrivate">非公開</label>
       <input type="checkbox" id="isPrivate" v-model="eventData.isPrivate">
+
+      <select v-model="eventData.location" class="sel">
+        <option v-for="loc in locations" :key="loc">{{ loc }}</option>
+      </select>
+      <p>{{ eventData.location }}</p>
     </section>
   </div>
 </template>
@@ -26,10 +31,16 @@
 export default {
   data() {
     return {
+      locations: [
+          "Tokyo",
+          "Paris",
+          "London"
+        ],
       eventData: {
         title: '',
         detail: '',
-        isPrivate: false
+        isPrivate: false,
+        location: "Tokyo"
       }
     }
   },
@@ -47,6 +58,10 @@ export default {
 
 <style scoped>
 .sec1 {
- height: 100vh;
+  height: 100vh;
+}
+
+.sel {
+  margin: 20px;
 }
 </style>
