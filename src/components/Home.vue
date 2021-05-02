@@ -1,7 +1,12 @@
 <template>
   <div id="content">
     <section class="sec1">
-      <p>これは私の趣味である旅行遍歴による<br>各地域のおすすめポイントをまとめたものです。</p>
+      <h2 class="sec1__title">HOME</h2>
+      <div class="content">
+        <h3 class="content__produce">自己紹介</h3>
+
+        <p>これは私の趣味である旅行遍歴による<br>各地域のおすすめポイントをまとめたものです。</p>
+      </div>
     </section>
     <section class="sec2">
       <h2>form</h2>
@@ -57,6 +62,7 @@ export default {
 </script>
 
 <style scoped>
+@import "../assets/styles/home.css";
 .sec1 {
   height: 100vh;
 }

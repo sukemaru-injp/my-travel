@@ -1,5 +1,5 @@
 <template>
-<div class="main">
+<div class="main" id="app">
   <div class="header">
     <h2 class="title">My Travel Diary</h2>
     <ul class="countries">
@@ -45,6 +45,11 @@ import Thai from'./components/Thai.vue'
 <style>
 @import "./assets/styles/bootstrap-reboot.css";
 @import "./assets/styles/header.css";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+#app {
+  font-family: 'Playfair Display', serif;
+}
 
 .main {
   display: flex;
