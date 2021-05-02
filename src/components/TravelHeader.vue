@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p v-border="'5px'">Home</p>
+    <p v-border:dotted="{width: '5px', color: 'blue'}">Home</p>
   </div>
 </template>
 
