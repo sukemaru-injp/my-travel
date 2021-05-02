@@ -47,25 +47,9 @@
     </section>
 
     <section class="sec3">
-      <h2>form</h2>
-      <label for="title">
-        タイトル
-      </label>
-      <input type="text" id="title" v-model.lazy="eventData.title">
-      <p>
-        {{eventData.title}}
-      </p>
-      <label for="detail">質問内容</label>
-      <textarea name="" id="detail" cols="30" rows="10" v-model="eventData.detail">
-      </textarea>
-      <pre>{{eventData.detail}}</pre>
-      <label for="isPrivate">非公開</label>
-      <input type="checkbox" id="isPrivate" v-model="eventData.isPrivate">
-
-      <select v-model="eventData.location" class="sel">
-        <option v-for="loc in locations" :key="loc">{{ loc }}</option>
-      </select>
-      <p>{{ eventData.location }}</p>
+      <div class="content">
+        <h2 class="content__title item">{{ title | upperCase }}</h2>
+      </div>
     </section>
   </div>
 </template>
@@ -74,6 +58,7 @@
 export default {
   data() {
     return {
+      title: 'Welcome To MyPage',
       locations: [
           "Tokyo",
           "Paris",

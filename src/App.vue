@@ -10,10 +10,10 @@
       <li class="country">ポルトガル</li>
     </ul>
   </div>
-  <!-- <Num v-bind:total-number="number" @my-click='incrementNum'></Num> -->
   <keep-alive>
     <component :is="currentComponent"></component>
   </keep-alive>
+  <!-- <TravelHeader></TravelHeader> -->
 </div>
 </template>
 
