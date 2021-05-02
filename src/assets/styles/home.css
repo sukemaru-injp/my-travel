@@ -7,4 +7,21 @@
 .sec1__title {
   padding-top: 40px;
 }
+
+.content__img {
+  height: 50vh;
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.content__img > img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 30%;
+}
+
+.content__name {
+  margin-top: 20px;
+}
 /*# sourceMappingURL=home.css.map */

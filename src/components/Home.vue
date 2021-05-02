@@ -4,8 +4,19 @@
       <h2 class="sec1__title">HOME</h2>
       <div class="content">
         <h3 class="content__produce">自己紹介</h3>
-
-        <p>これは私の趣味である旅行遍歴による<br>各地域のおすすめポイントをまとめたものです。</p>
+        <div class="content__img">
+          <img src="../assets/images/IMG_5456.png" alt="">
+        </div>
+        <h4 class="content__name">
+          Ryosuke Kubota
+        </h4>
+        <pre class="content__about">
+          これは私の趣味である過去に行った国や地域をまとめたポートフォリオです。
+          旅行好きである私は年に2~3回は海外旅行をしていましたが、
+          コロナの影響で我慢を強いられています。そこで過去の旅行をまとめました。
+          その地のおすすめポイントなどをまとめています。
+          今後旅行を計画している人の参考にもなればと思います。
+        </pre>
       </div>
     </section>
     <section class="sec2">
