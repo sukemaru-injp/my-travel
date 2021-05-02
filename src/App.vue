@@ -14,6 +14,7 @@
   <keep-alive>
     <component :is="currentComponent"></component>
   </keep-alive>
+  <TravelHeader></TravelHeader>
 </div>
 </template>
 
