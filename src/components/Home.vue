@@ -23,14 +23,14 @@
 
     <section class="sec2">
       <div class="content">
-        <h3 class="content__title item">旅の魅力</h3>
+        <h2 class="content__title item">旅の魅力</h2>
         <div class="content__img item">
           <img src="../assets/images/IMG_5917.png" alt="">
         </div>
         <ul class="content__lists">
           <ol>
             <li class="content__list">
-              自分の知らないことに直接触れることで、視野を広げることができる。
+              自分の知らない世界に直接触れることで、視野を広げることができる。
             </li>
             <li class="content__list">
               日本の常識は世界の非常識。日本の魅力を再確認できる。
@@ -43,7 +43,6 @@
             </li>
           </ol>
         </ul>
-        <button @click="animation">appear</button>
       </div>
     </section>
 
