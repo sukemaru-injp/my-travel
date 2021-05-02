@@ -91,6 +91,24 @@
   padding-top: 40px;
 }
 
+.sec2 {
+  background-color: mistyrose;
+  height: 100vh;
+  width: 70vw;
+  text-align: center;
+}
+
+.sec3 {
+  background-color: paleturquoise;
+  height: 100vh;
+  width: 70vw;
+  text-align: center;
+}
+
+.content__title {
+  padding-top: 30px;
+}
+
 .content__img {
   height: 50vh;
   width: 50vw;
@@ -110,5 +128,18 @@
 
 .content__name {
   margin-top: 20px;
+}
+
+.content__lists {
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-left: 50px;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+.content__list {
+  margin-top: 10px;
+  padding-left: 20px;
 }
 /*# sourceMappingURL=home.css.map */
