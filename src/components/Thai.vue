@@ -2,7 +2,20 @@
   <div id="content">
     <section class="sec1">
       <h2 class="sec1__title">タイ・バンコク</h2>
-      <div class="content">
+      <div class="content appear up">
+        <div class="content__img item">
+          <img src="../assets/images/IMG_0747.png" alt="">
+        </div>
+        <h4 class="content__name item">
+          ワット・アルン
+        </h4>
+        <pre class="content__about item">
+          アルンはタイ語で「暁」の意味があることから、「暁の寺」とも呼ばれております。
+          ライトアップされた姿がとても美しく訪れてよかった観光地として、
+          タイの中でも上位に君臨します。
+          この写真は私が実際にクルーズ船の上から撮ったものです。
+        </pre>
+        <button @click="animation">appear</button>
       </div>
     </section>
     <section class="sec2">
@@ -11,6 +24,14 @@
 </template>
 
 <script>
+export default {
+    methods: {
+    animation: function() {
+      let move = document.querySelector('.appear')
+      move.classList.toggle('inview')
+    }
+  }
+}
 </script>
 
 <style scoped>

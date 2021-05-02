@@ -61,15 +61,6 @@ export default {
       }
     }
   },
-  created() {
-    console.log('create');
-  },
-  destroyed() {
-    console.log('destroy')
-  },
-  deactivated() {
-    console.log('ディアクティベイテッド')
-  },
   methods: {
     animation: function() {
       let move = document.querySelector('.appear')
