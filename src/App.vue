@@ -1,36 +1,35 @@
 <template>
 <div class="main" id="app">
-  <div class="header">
-    <h2 class="title">My Travel Diary</h2>
-    <ul class="countries">
-      <li class="country" @click="currentComponent = 'Home'">Home</li>
-      <li class="country" @click="currentComponent = 'Thai'">タイ</li>
-      <li class="country">ベトナム</li>
-      <li class="country">香港</li>
-      <li class="country">ポルトガル</li>
-    </ul>
-  </div>
+  <transition name='fade'>
+    <div class="header" v-if='show'>
+      <h2 class="title">My Travel Diary</h2>
+      <ul class="countries">
+        <li class="country" @click="currentComponent = 'Home'">Home</li>
+        <li class="country" @click="currentComponent = 'Thai'">タイ</li>
+        <li class="country">ベトナム</li>
+        <li class="country">香港</li>
+        <li class="country">ポルトガル</li>
+      </ul>
+    </div>
+  </transition>
   <keep-alive>
     <component :is="currentComponent"></component>
   </keep-alive>
-  <!-- <TravelHeader></TravelHeader> -->
 </div>
 </template>
 
 <script>
-import TravelHeader from './components/TravelHeader.vue'
 import Home from'./components/Home.vue'
 import Thai from'./components/Thai.vue'
 
   export default {
     data() {
       return {
-        number: 14,
-        currentComponent: 'Home'
+        currentComponent: 'Home',
+        show: true
       }
     },
     components: {
-      TravelHeader,
       Home,
       Thai
     },
@@ -55,14 +54,27 @@ import Thai from'./components/Thai.vue'
   display: flex;
 }
 
-.num {
-  margin-left: 20px;
+.fade-enter {
+
 }
 
-.btn {
-  height: 100px;
-  margin-left: 30px;
+.fade-enter-active {
+
 }
 
+.fade-enter-to {
+}
+
+.fade-leave {
+
+}
+
+.fade-leave-active {
+
+}
+
+.fade-leave-active {
+  
+}
 
 </style>

@@ -61,18 +61,7 @@ export default {
   mixins: [appear],
   data() {
     return {
-      title: 'Welcome To MyPage',
-      locations: [
-          "Tokyo",
-          "Paris",
-          "London"
-        ],
-      eventData: {
-        title: '',
-        detail: '',
-        isPrivate: false,
-        location: "Tokyo"
-      }
+      title: 'Welcome To MyPage'
     }
   }
 }
@@ -80,7 +69,5 @@ export default {
 
 <style scoped>
 @import "../assets/styles/home.css";
-.sel {
-  margin: 20px;
-}
 </style>
+
