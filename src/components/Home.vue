@@ -1,7 +1,7 @@
 <template>
   <div id="content">
-    <section class="sec1">
-      <h2 class="sec1__title">HOME</h2>
+    <section class="sec">
+      <h2 class="sec__title">HOME</h2>
       <div class="content appear up">
         <h3 class="content__produce item">自己紹介</h3>
         <div class="content__img item">
@@ -21,7 +21,7 @@
       </div>
     </section>
 
-    <section class="sec2">
+    <section class="sec">
       <div class="content">
         <h2 class="content__title item">旅の魅力</h2>
         <div class="content__img item">
@@ -46,7 +46,7 @@
       </div>
     </section>
 
-    <section class="sec3">
+    <section class="sec">
       <div class="content">
         <h2 class="content__title item">{{ title | upperCase }}</h2>
       </div>

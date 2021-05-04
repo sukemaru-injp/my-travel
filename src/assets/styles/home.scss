@@ -1,29 +1,37 @@
 @import 'appear';
 
-.sec1 {
+.sec {
   background-color: linen;
   height: 100vh;
   width: 70vw;
   text-align: center;
+
+  &:nth-child(2) {
+    background-color: mistyrose;
+  }
+
+  &:nth-child(3) {
+    background-color: bisque;
+  }
 
   &__title {
     padding-top: 40px;
   }
 }
 
-.sec2 {
-  background-color: mistyrose;
-  height: 100vh;
-  width: 70vw;
-  text-align: center;
-}
+// .sec2 {
+//   background-color: mistyrose;
+//   height: 100vh;
+//   width: 70vw;
+//   text-align: center;
+// }
 
-.sec3 {
-  background-color: bisque;
-  height: 100vh;
-  width: 70vw;
-  text-align: center;
-}
+// .sec3 {
+//   background-color: bisque;
+//   height: 100vh;
+//   width: 70vw;
+//   text-align: center;
+// }
 
 .content {
   &__title {

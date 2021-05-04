@@ -1,7 +1,7 @@
 <template>
   <div id="content">
-    <section class="sec1">
-      <h2 class="sec1__title">タイ・バンコク</h2>
+    <section class="sec">
+      <h2 class="sec__title">タイ・バンコク</h2>
       <div class="content appear up">
         <div class="content__img item">
           <img src="../assets/images/IMG_0747.png" alt="">
@@ -19,8 +19,8 @@
         <!-- <button @click="animation">appear</button> -->
       </div>
     </section>
-    <section class="sec2">
-      <h2 class="sec1__title">タイ・アユタヤ</h2>
+    <section class="sec">
+      <h2 class="sec__title">タイ・アユタヤ</h2>
       <div class="content">
         <div class="content__img item">
           <img src="../assets/images/IMG_0785.png" alt="">
