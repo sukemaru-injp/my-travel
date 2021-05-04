@@ -17,17 +17,16 @@
           その地のおすすめポイントなどをまとめています。<br>
           今後旅行を計画している人の参考にもなればと思います。<br>
         </p>
-        <!-- <button @click="animation">appear</button> -->
       </div>
     </section>
 
     <section class="sec">
-      <div class="content">
+      <div class="content appear up">
         <h2 class="content__title item">旅の魅力</h2>
         <div class="content__img item">
           <img src="../assets/images/IMG_5917.png" alt="">
         </div>
-        <ul class="content__lists">
+        <ul class="content__lists item">
           <ol>
             <li class="content__list">
               自分の知らない世界に直接触れることで、視野を広げることができる。
@@ -47,7 +46,7 @@
     </section>
 
     <section class="sec">
-      <div class="content">
+      <div class="content appear up">
         <h2 class="content__title item">{{ title | upperCase }}</h2>
       </div>
     </section>

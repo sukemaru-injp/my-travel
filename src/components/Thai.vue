@@ -16,12 +16,12 @@
           この写真は私が実際にクルーズ船の上から撮ったものです。<br>
           バンコクの混沌とした空気感が好きな方も多いのではないでしょうか。
         </p>
-        <!-- <button @click="animation">appear</button> -->
+        <button @click="animation">appear</button>
       </div>
     </section>
     <section class="sec">
       <h2 class="sec__title">タイ・アユタヤ</h2>
-      <div class="content">
+      <div class="content appear up">
         <div class="content__img item">
           <img src="../assets/images/IMG_0785.png" alt="">
         </div>
