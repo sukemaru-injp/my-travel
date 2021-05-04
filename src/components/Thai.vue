@@ -41,13 +41,10 @@
 </template>
 
 <script>
+import { appear } from '@/appear';
+
 export default {
-    methods: {
-    animation: function() {
-      let move = document.querySelector('.appear')
-      move.classList.toggle('inview')
-    }
-  }
+  mixins: [appear],
 }
 </script>
 

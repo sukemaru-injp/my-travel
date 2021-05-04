@@ -55,7 +55,10 @@
 </template>
 
 <script>
+import { appear } from '@/appear'
+
 export default {
+  mixins: [appear],
   data() {
     return {
       title: 'Welcome To MyPage',
@@ -70,12 +73,6 @@ export default {
         isPrivate: false,
         location: "Tokyo"
       }
-    }
-  },
-  methods: {
-    animation: function() {
-      let move = document.querySelector('.appear')
-      move.classList.toggle('inview')
     }
   }
 }
