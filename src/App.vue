@@ -34,8 +34,8 @@ import Thai from'./components/Thai.vue'
       Thai
     },
     methods: {
-      incrementNum(val) {
-        this.number = val;
+      showTrue() {
+        this.show = true
       }
     }
   }
@@ -54,27 +54,29 @@ import Thai from'./components/Thai.vue'
   display: flex;
 }
 
+/* fade */
 .fade-enter {
-
+  opacity: 0;
 }
 
 .fade-enter-active {
-
+  transition: opacity 1s;
 }
 
 .fade-enter-to {
+  opacity: 1;
 }
 
 .fade-leave {
-
+  opacity: 1;
 }
 
 .fade-leave-active {
-
+  transition: opacity 1s;
 }
 
-.fade-leave-active {
-  
+.fade-leave-to {
+  opacity: 0;
 }
 
 </style>

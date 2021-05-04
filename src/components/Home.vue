@@ -17,7 +17,7 @@
           その地のおすすめポイントなどをまとめています。<br>
           今後旅行を計画している人の参考にもなればと思います。<br>
         </p>
-        <button @click="animation">appear</button>
+        <!-- <button @click="animation">appear</button> -->
       </div>
     </section>
 

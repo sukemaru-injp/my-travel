@@ -16,7 +16,7 @@
           この写真は私が実際にクルーズ船の上から撮ったものです。<br>
           バンコクの混沌とした空気感が好きな方も多いのではないでしょうか。
         </p>
-        <button @click="animation">appear</button>
+        <!-- <button @click="animation">appear</button> -->
       </div>
     </section>
     <section class="sec2">
