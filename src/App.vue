@@ -8,7 +8,7 @@
         <li class="country" @click="currentComponent = 'Thai'">タイ</li>
         <li class="country">ベトナム</li>
         <li class="country">香港</li>
-        <li class="country">ポルトガル</li>
+        <li class="country" @click="currentComponent = 'Portugal'">ポルトガル</li>
       </ul>
     </div>
   </transition>
@@ -21,6 +21,7 @@
 <script>
 import Home from'./components/Home.vue'
 import Thai from'./components/Thai.vue'
+import Portugal from './components/Portugal.vue'
 
   export default {
     data() {
@@ -31,7 +32,8 @@ import Thai from'./components/Thai.vue'
     },
     components: {
       Home,
-      Thai
+      Thai,
+      Portugal
     },
     methods: {
       showTrue() {
