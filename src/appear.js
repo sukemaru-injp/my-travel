@@ -1,7 +1,6 @@
 export const appear = {
   methods: {
     appearAnimation() {
-    // window:onload = function() {
       let els = document.querySelectorAll('.appear');
       const animation = function(entries) {
         entries.forEach(entry => {
