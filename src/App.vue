@@ -9,7 +9,7 @@
         <li class="country">ベトナム</li>
         <li class="country">香港</li>
         <li class="country"><router-link to='/portugal' class="link" active-class="link--active" exact>ポルトガル</router-link></li>
-        <li class="country">スペイン</li>
+        <li class="country"><router-link to='/spain' class="link" active-class="link--active" exact>スペイン</router-link></li>
         <li class="country"><router-link to='/france' class="link" active-class="link--active" exact>フランス</router-link></li>
         <li class="country">イギリス</li>
         <li class="country">ベルギー</li>
@@ -27,7 +27,6 @@
 </template>
 
 <script>
-// import Portugal from './components/Portugal.vue'
 
   export default {
     data() {
@@ -37,7 +36,6 @@
       }
     },
     components: {
-      // Portugal
     },
     methods: {
       showTrue() {

@@ -5,6 +5,8 @@ import France from './views/France.vue'
 import Thai from './views/Thai.vue'
 import Portugal from './views/Portugal.vue'
 import Yakushima from './views/Yakushima.vue'
+import Spain from './views/Spain.vue'
+
 
 
 
@@ -19,5 +21,6 @@ new Router({
     {path: '/thai', component: Thai},
     {path: '/portugal', component: Portugal},
     {path: '/yakushima', component: Yakushima},
+    {path: '/spain', component: Spain},
   ]
 })
