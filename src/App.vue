@@ -8,14 +8,14 @@
         <li class="country"><router-link to='/thai' class="link">タイ</router-link></li>
         <li class="country">ベトナム</li>
         <li class="country">香港</li>
-        <li class="country" @click="currentComponent = 'Portugal'">ポルトガル</li>
+        <li class="country"><router-link to='/portugal' class="link">ポルトガル</router-link></li>
         <li class="country">スペイン</li>
         <li class="country"><router-link to='/france' class="link">フランス</router-link></li>
         <li class="country">イギリス</li>
         <li class="country">ベルギー</li>
         <li class="country">UAE</li>
         <li class="country">台湾</li>
-        <li class="country"></li>
+        <li class="country"><router-link to='/yakushima' class="link">屋久島</router-link></li>
       </ul>
     </div>
   </transition>
