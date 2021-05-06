@@ -9,6 +9,13 @@
         <li class="country">ベトナム</li>
         <li class="country">香港</li>
         <li class="country" @click="currentComponent = 'Portugal'">ポルトガル</li>
+        <li class="country">スペイン</li>
+        <li class="country">フランス</li>
+        <li class="country">イギリス</li>
+        <li class="country">ベルギー</li>
+        <li class="country">UAE</li>
+        <li class="country">台湾</li>
+        <li class="country"></li>
       </ul>
     </div>
   </transition>
