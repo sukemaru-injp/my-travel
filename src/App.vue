@@ -27,8 +27,6 @@
 </template>
 
 <script>
-// import Home from'./components/Home.vue'
-// import Thai from'./components/Thai.vue'
 // import Portugal from './components/Portugal.vue'
 
   export default {
@@ -39,8 +37,6 @@
       }
     },
     components: {
-      // Home,
-      // Thai,
       // Portugal
     },
     methods: {
