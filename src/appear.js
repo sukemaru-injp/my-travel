@@ -24,6 +24,7 @@ export const appear = {
     }
   },
   mounted() {
+    // console.log('mt')
     this.appearAnimation()
   }
 }

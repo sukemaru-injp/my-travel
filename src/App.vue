@@ -4,13 +4,13 @@
     <div class="header" v-if='show'>
       <h2 class="title">My Travel Diary</h2>
       <ul class="countries">
-        <li class="country" @click="currentComponent = 'Home'">Home</li>
-        <li class="country" @click="currentComponent = 'Thai'">タイ</li>
+        <li class="country"><router-link to='/' class="link">HOME</router-link></li>
+        <li class="country"><router-link to='/thai' class="link">タイ</router-link></li>
         <li class="country">ベトナム</li>
         <li class="country">香港</li>
         <li class="country" @click="currentComponent = 'Portugal'">ポルトガル</li>
         <li class="country">スペイン</li>
-        <li class="country">フランス</li>
+        <li class="country"><router-link to='/france' class="link">フランス</router-link></li>
         <li class="country">イギリス</li>
         <li class="country">ベルギー</li>
         <li class="country">UAE</li>
@@ -19,17 +19,17 @@
       </ul>
     </div>
   </transition>
-  <keep-alive>
+  <!-- <keep-alive>
     <component :is="currentComponent"></component>
-  </keep-alive>
-  <!-- <router-view></router-view> -->
+  </keep-alive> -->
+  <router-view></router-view>
 </div>
 </template>
 
 <script>
-import Home from'./components/Home.vue'
-import Thai from'./components/Thai.vue'
-import Portugal from './components/Portugal.vue'
+// import Home from'./components/Home.vue'
+// import Thai from'./components/Thai.vue'
+// import Portugal from './components/Portugal.vue'
 
   export default {
     data() {
@@ -39,9 +39,9 @@ import Portugal from './components/Portugal.vue'
       }
     },
     components: {
-      Home,
-      Thai,
-      Portugal
+      // Home,
+      // Thai,
+      // Portugal
     },
     methods: {
       showTrue() {
