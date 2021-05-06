@@ -4,18 +4,18 @@
     <div class="header" v-if='show'>
       <h2 class="title">My Travel Diary</h2>
       <ul class="countries">
-        <li class="country"><router-link to='/' class="link">HOME</router-link></li>
-        <li class="country"><router-link to='/thai' class="link">タイ</router-link></li>
+        <li class="country"><router-link to='/' class="link" active-class="link--active" exact>HOME</router-link></li>
+        <li class="country"><router-link to='/thai' class="link" active-class="link--active" exact>タイ</router-link></li>
         <li class="country">ベトナム</li>
         <li class="country">香港</li>
-        <li class="country"><router-link to='/portugal' class="link">ポルトガル</router-link></li>
+        <li class="country"><router-link to='/portugal' class="link" active-class="link--active" exact>ポルトガル</router-link></li>
         <li class="country">スペイン</li>
-        <li class="country"><router-link to='/france' class="link">フランス</router-link></li>
+        <li class="country"><router-link to='/france' class="link" active-class="link--active" exact>フランス</router-link></li>
         <li class="country">イギリス</li>
         <li class="country">ベルギー</li>
         <li class="country">UAE</li>
         <li class="country">台湾</li>
-        <li class="country"><router-link to='/yakushima' class="link">屋久島</router-link></li>
+        <li class="country"><router-link to='/yakushima' class="link" active-class="link--active" exact>屋久島</router-link></li>
       </ul>
     </div>
   </transition>
