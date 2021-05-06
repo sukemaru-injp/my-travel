@@ -22,6 +22,7 @@
   <keep-alive>
     <component :is="currentComponent"></component>
   </keep-alive>
+  <!-- <router-view></router-view> -->
 </div>
 </template>
 
