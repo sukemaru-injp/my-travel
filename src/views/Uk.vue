@@ -40,19 +40,19 @@
     </section>
 
     <section class="sec">
-      <h2 class="sec__title">スペイン・マドリッド</h2>
+      <h2 class="sec__title">イギリス・ロンドン</h2>
       <div class="content appear up">
         <div class="content__img item">
-          <img src="../assets/images/IMG_4089.png" alt="">
+          <img src="../assets/images/IMG_2590.png" alt="">
         </div>
         <h4 class="content__name item">
-          マドリッド王宮
+          サッカー観戦
         </h4>
         <p class="content__about item">
-          16世紀からスペインの歴代の王族が暮らしてきたマドリード王宮。<br>
-          世界で唯一の完全なストラディヴァリウスの弦楽四重奏などが展示されている<br>
-          王宮は一見の価値ありな贅沢な観光スポットです。<br>
-          その上品な佇まいに感動を覚えること間違いなしです。
+          ヨーロッパの人気No.1スポーツであるサッカーの観戦は強くおすすめします。<br>
+          ひとつひとつのプレーに会場が沸く様子はサッカーファンにとってはたまらない<br>
+          瞬間となること間違いなしです。人気のクラブのチケットは取るのも難しいですが<br>
+          ヨーロッパを訪れる際には、そのチケットを取るために一念発起するだけの価値はあります。<br>
         </p>
       </div>
     </section>
