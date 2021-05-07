@@ -48,6 +48,7 @@
     <section class="sec">
       <div class="content appear up">
         <h2 class="content__title item">{{ title | upperCase }}</h2>
+        
       </div>
     </section>
   </div>
