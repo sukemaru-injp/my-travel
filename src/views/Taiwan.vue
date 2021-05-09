@@ -1,37 +1,36 @@
 <template>
     <div id="content">
     <section class="sec">
-      <h2 class="sec__title">スペイン・バルセロナ</h2>
+      <h2 class="sec__title">台湾・台北</h2>
       <div class="content appear up">
         <div class="content__img item">
-          <img src="../assets/images/IMG_4280.png" alt="">
+          <img src="../assets/images/IMG_3954.png" alt="">
         </div>
         <h4 class="content__name item">
-          サグラダファミリア
+          国立中正紀念堂
         </h4>
         <p class="content__about item">
-          建築家ガウディが手がけ、着工から130年以上経った現在も建築途中の教会です。<br>
-          世界遺産に登録されたその建築物のもつ美しさに圧倒されること間違いなしです。<br>
-          聖堂内部では、ステンドグラスから差し込む光が柱や床を鮮やかに彩っています。<br>
-          建築中のその建物が完成した際には、私自身もう一度訪れる予定です。
+          中正紀念堂とは、中華民国の初代総統である蒋介石を追悼するために<br>
+          建てられた建築物です。毎日行われる衛兵交代式は中正紀念堂の名物となっています。<br>
+          その広大な土地と、徴兵交代式はぜひ一度訪れてみることをおすすめします。<br>
+          異なる文化の面白さを感じることができる機会となります。
         </p>
       </div>
     </section>
         <section class="sec">
-      <h2 class="sec__title">スペイン・バルセロナ</h2>
+      <h2 class="sec__title">台湾・九份</h2>
       <div class="content appear up">
         <div class="content__img item">
-          <img src="../assets/images/IMG_4254.png" alt="">
+          <img src="../assets/images/IMG_4004.png" alt="">
         </div>
         <h4 class="content__name item">
-          グエル公園(Parc Güell)
+          九份老街
         </h4>
         <p class="content__about item">
-          スペインのバルセロナにある公園で、バルセロナの街が一望できる。<br>
-          アントニオ・ガウディの作品群の１つとして1984年にユネスコの世界遺産に登録されました。<br>
-          私は朝一で、街を一望しました。公園のあちこちに見どころがあって、<br>
-          一枚の写真では伝えることができないほど魅力溢れる公園です。<br>
-          バルセロナを訪れた際には、必ず訪れてください。
+          ノスタルジックなその街並みは日本人観光客からも人気があります。<br>
+          台北中心地からバスでアクセス可能で、台湾を訪れた際にはマストですね。<br>
+          常に観光客であふれる喧騒はやはり楽しいです。コロナが収まったら、<br>
+          また訪れたいという人も多いのではないでしょうか。
         </p>
       </div>
     </section>
