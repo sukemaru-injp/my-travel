@@ -1,24 +1,25 @@
 <template>
   <div id="content">
     <section class="sec">
-      <h2 class="sec__title">フランス・パリ</h2>
+      <h2 class="sec__title">ベルギー・ブリュッセル</h2>
       <div class="content appear up">
         <div class="content__img item">
-          <img src="../assets/images/IMG_4364.png" alt="">
+          <img src="../assets/images/IMG_4473.png" alt="">
         </div>
         <h4 class="content__name item">
-          ルーブル美術館
+          グラン・プラス(Grand-Place)
         </h4>
         <p class="content__about item">
-          ルーヴル美術館の展示スペースは6万平方メートルと大変広く、展示されている作品数は<br>
-          3万5千点とも言われています。ミロのヴィーナスやサモトラケのニケ、モナリザなど著名な作品が<br>
-          展示されています。私自身２度訪れていますが、それでも時間が足りていないほどです。<br>
-          さすが世界最大級の美術館です。パリに訪れた際には、マストとも言える観光地です。
+          ブリュッセル観光において欠かすことのできない観光地とも言うべき場所です。<br>
+          その美しい街並みに惚れ惚れすること間違いなしです。グラン・プラスは<br>
+          ブリュッセル旧市街の中心に位置するまさに「街の心臓」です。<br>
+          1998年に世界遺産に登録された、世界で最も美しいとされる広場は<br>
+          リピート間違い無しの観光地です。
         </p>
       </div>
     </section>
         <section class="sec">
-      <h2 class="sec__title">フランス・パリ</h2>
+      <h2 class="sec__title">ベルギー・ブリュッセル</h2>
       <div class="content appear up">
         <div class="content__img item">
           <img src="../assets/images/IMG_4332.png" alt="">
