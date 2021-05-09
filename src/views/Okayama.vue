@@ -19,3 +19,16 @@
     </section>
   </div>
 </template>
+
+<script>
+import { appear } from '@/appear';
+
+export default {
+  mixins: [appear],
+}
+</script>
+
+<style scoped>
+@import "../assets/styles/home.css";
+
+</style>

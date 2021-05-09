@@ -16,7 +16,7 @@
         <li class="country">UAE</li>
         <li class="country"><router-link to='/taiwan' class="link" active-class="link--active" exact>台湾</router-link></li>
         <li class="country"><router-link to='/yakushima' class="link" active-class="link--active" exact>屋久島</router-link></li>
-        <li class="country"><router-link to='/yakushima' class="link" active-class="link--active" exact>岡山</router-link></li>
+        <li class="country"><router-link to='/okayama' class="link" active-class="link--active" exact>岡山</router-link></li>
       </ul>
     </div>
   </transition>
