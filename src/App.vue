@@ -12,7 +12,7 @@
         <li class="country"><router-link to='/spain' class="link" active-class="link--active" exact>スペイン</router-link></li>
         <li class="country"><router-link to='/france' class="link" active-class="link--active" exact>フランス</router-link></li>
         <li class="country"><router-link to='/uk' class="link" active-class="link--active" exact>イギリス</router-link></li>
-        <li class="country">ベルギー</li>
+        <li class="country"><router-link to='/belgium' class="link" active-class="link--active" exact>ベルギー</router-link></li>
         <li class="country">UAE</li>
         <li class="country">台湾</li>
         <li class="country"><router-link to='/yakushima' class="link" active-class="link--active" exact>屋久島</router-link></li>
