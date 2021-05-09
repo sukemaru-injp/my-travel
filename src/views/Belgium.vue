@@ -22,18 +22,17 @@
       <h2 class="sec__title">ベルギー・ブリュッセル</h2>
       <div class="content appear up">
         <div class="content__img item">
-          <img src="../assets/images/IMG_4332.png" alt="">
+          <img src="../assets/images/IMG_4468.png" alt="">
         </div>
         <h4 class="content__name item">
-          エトワール凱旋門(Arc de triomphe de l'Étoile)
+          小便小僧(Manneken-Pis)
         </h4>
         <p class="content__about item">
-          パリはもとよりフランス全土の象徴的な建造物の一つで、単に凱旋門と言えば<br>
-          このエトワール凱旋門を指すことも多く、世界有数の観光名所となっています。<br>
-          凱旋門には上ることも可能で、パリの街並みを一望にできます。<br>
-          2階段を上った屋上展望台から見えるのは、「花の都」パリの全景。<br>
-          その美しさに私自身魅了され、また訪れたい国上位は揺らぎません。<br>
-          パリ観光のスタート地点として訪れるのにもおすすめです。
+          見逃してしまいそうなほど小さい小便小僧。ジュリアン君と呼ばれており、<br>
+          衣装を身につけている時もあります。がっかりスポットとして呼び声高い<br>
+          小便小僧ですが、ベルギーを訪れた際には外すわけにはいかないでしょう。<br>
+          街のいたるところにジュリアン君のアートであったり、また小便犬であったり、<br>
+          面白さがあふれるブリュッセルです。
         </p>
       </div>
     </section>
