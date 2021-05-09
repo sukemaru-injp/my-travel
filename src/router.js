@@ -8,8 +8,7 @@ import Yakushima from './views/Yakushima.vue'
 import Spain from './views/Spain.vue'
 import UnitedKingdom from './views/Uk.vue'
 import Belgium from './views/Belgium.vue'
-
-
+import Taiwan from './views/Taiwan.vue'
 
 
 Vue.use(Router)
@@ -26,5 +25,6 @@ new Router({
     {path: '/spain', component: Spain},
     {path: '/uk', component: UnitedKingdom},
     {path: '/belgium', component: Belgium},
+    {path: '/taiwan', component: Taiwan},
   ]
 })
