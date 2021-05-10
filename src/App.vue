@@ -28,7 +28,6 @@
 </template>
 
 <script>
-
   export default {
     data() {
       return {
@@ -49,6 +48,7 @@
 <style>
 @import "./assets/styles/bootstrap-reboot.css";
 @import "./assets/styles/header.css";
+@import "./assets/styles/loader.css";
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 #app {
