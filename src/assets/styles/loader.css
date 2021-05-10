@@ -9,28 +9,15 @@
 }
 
 .pace {
-  -webkit-pointer-events: none;
-  pointer-events: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-      user-select: none;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-  border-radius: 10px;
-  background-clip: padding-box;
   z-index: 2000;
   position: fixed;
   margin: auto;
-  top: 12px;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 200px;
-  height: 50px;
-  overflow: hidden;
+  width: 100px;
+  height: 100px;
 }
 
 .pace .pace-progress {
@@ -59,8 +46,8 @@
   margin: 0 auto;
   -webkit-animation-name: sk-rotateplane;
           animation-name: sk-rotateplane;
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-delay: 0s;
