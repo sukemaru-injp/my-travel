@@ -49,6 +49,9 @@
       <div class="content appear up">
         <h2 class="content__title item">{{ title | upperCase }}</h2>
         <h2 class="content__profile item">My Account List</h2>
+        <div class="content__img item">
+          <img src="../assets/images/GPTempDownload.png" alt="">
+        </div>
         <ul class="content__lists item">
           <li class="content__list item none">
             <a href="https://www.facebook.com/profile.php?id=100029782609298" class="account">Facebook Account<font-awesome-icon :icon="['fab', 'facebook']" class="fa" /></a>
