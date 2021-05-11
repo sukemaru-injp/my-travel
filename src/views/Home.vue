@@ -48,7 +48,9 @@
     <section class="sec">
       <div class="content appear up">
         <h2 class="content__title item">{{ title | upperCase }}</h2>
-        
+        <h3 class="content__profile item">My Profile</h3>
+        <font-awesome-icon :icon="['fab', 'github']" />
+        <font-awesome-icon :icon="['fab', 'facebook']" />
       </div>
     </section>
   </div>
