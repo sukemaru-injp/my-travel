@@ -136,4 +136,26 @@
   margin-top: 10px;
   padding-left: 20px;
 }
+
+.content__profile {
+  margin-top: 20px;
+}
+
+.none {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.account {
+  color: black;
+}
+
+.account:hover {
+  text-decoration: none;
+}
+
+.fa {
+  margin-left: 10px;
+}
 /*# sourceMappingURL=home.css.map */

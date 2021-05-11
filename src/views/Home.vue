@@ -48,9 +48,18 @@
     <section class="sec">
       <div class="content appear up">
         <h2 class="content__title item">{{ title | upperCase }}</h2>
-        <h3 class="content__profile item">My Profile</h3>
-        <font-awesome-icon :icon="['fab', 'github']" />
-        <font-awesome-icon :icon="['fab', 'facebook']" />
+        <h2 class="content__profile item">My Account List</h2>
+        <ul class="content__lists item">
+          <li class="content__list item none">
+            <a href="https://www.facebook.com/profile.php?id=100029782609298" class="account">Facebook Account<font-awesome-icon :icon="['fab', 'facebook']" class="fa" /></a>
+          </li>
+          <li class="content__list item none">
+            <a href="https://github.com/sukemaru-injp" class="account">Github Account<font-awesome-icon :icon="['fab', 'github']" class="fa" /></a>
+          </li>
+          <li class="content__list item none">
+            <a href="https://www.instagram.com/kubota____/" class="account">Instgram Account<font-awesome-icon :icon="['fab', 'instagram']" class="fa" /></a>
+          </li>
+        </ul>
       </div>
     </section>
   </div>
