@@ -6,7 +6,7 @@
       <ul class="countries">
         <li class="country"><router-link to='/' class="link" active-class="link--active" exact>HOME</router-link></li>
         <li class="country"><router-link to='/thai' class="link" active-class="link--active" exact>タイ</router-link></li>
-        <li class="country">ベトナム</li>
+        <li class="country"><router-link to='/coming' class="link" active-class="link--active" exact>ベトナム</router-link></li>
         <li class="country">香港</li>
         <li class="country"><router-link to='/portugal' class="link" active-class="link--active" exact>ポルトガル</router-link></li>
         <li class="country"><router-link to='/spain' class="link" active-class="link--active" exact>スペイン</router-link></li>
