@@ -7,13 +7,13 @@
         <li class="country"><router-link to='/' class="link" active-class="link--active" exact>HOME</router-link></li>
         <li class="country"><router-link to='/thai' class="link" active-class="link--active" exact>タイ</router-link></li>
         <li class="country"><router-link to='/coming' class="link" active-class="link--active" exact>ベトナム</router-link></li>
-        <li class="country">香港</li>
+        <li class="country"><router-link to='/coming' class="link" active-class="link--active" exact>香港</router-link></li>
         <li class="country"><router-link to='/portugal' class="link" active-class="link--active" exact>ポルトガル</router-link></li>
         <li class="country"><router-link to='/spain' class="link" active-class="link--active" exact>スペイン</router-link></li>
         <li class="country"><router-link to='/france' class="link" active-class="link--active" exact>フランス</router-link></li>
         <li class="country"><router-link to='/uk' class="link" active-class="link--active" exact>イギリス</router-link></li>
         <li class="country"><router-link to='/belgium' class="link" active-class="link--active" exact>ベルギー</router-link></li>
-        <li class="country">UAE</li>
+        <li class="country"><router-link to='/coming' class="link" active-class="link--active" exact>UAE</router-link></li>
         <li class="country"><router-link to='/taiwan' class="link" active-class="link--active" exact>台湾</router-link></li>
         <li class="country"><router-link to='/yakushima' class="link" active-class="link--active" exact>屋久島</router-link></li>
         <li class="country"><router-link to='/okayama' class="link" active-class="link--active" exact>岡山</router-link></li>
