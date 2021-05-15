@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "postinstall": "yarn build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "setup": "yarn"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
