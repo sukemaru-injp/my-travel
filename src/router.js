@@ -11,6 +11,7 @@ import Belgium from './views/Belgium.vue'
 import Taiwan from './views/Taiwan.vue'
 import Okayama from './views/Okayama.vue'
 import Coming from './views/Coming.vue'
+import HongKong from './views/HongKong.vue'
 
 
 
@@ -31,5 +32,6 @@ new Router({
     {path: '/taiwan', component: Taiwan},
     {path: '/okayama', component: Okayama},
     {path: '/coming', component: Coming},
+    {path: '/hongkong', component: HongKong},
   ]
 })

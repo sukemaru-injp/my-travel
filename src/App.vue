@@ -7,7 +7,7 @@
         <li class="country"><router-link to='/' class="link" active-class="link--active" exact>HOME</router-link></li>
         <li class="country"><router-link to='/thai' class="link" active-class="link--active" exact>タイ</router-link></li>
         <li class="country"><router-link to='/coming' class="link" active-class="link--active" exact>ベトナム</router-link></li>
-        <li class="country"><router-link to='/coming' class="link" active-class="link--active" exact>香港</router-link></li>
+        <li class="country"><router-link to='/hongkong' class="link" active-class="link--active" exact>香港</router-link></li>
         <li class="country"><router-link to='/portugal' class="link" active-class="link--active" exact>ポルトガル</router-link></li>
         <li class="country"><router-link to='/spain' class="link" active-class="link--active" exact>スペイン</router-link></li>
         <li class="country"><router-link to='/france' class="link" active-class="link--active" exact>フランス</router-link></li>
